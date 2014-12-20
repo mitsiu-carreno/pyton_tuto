@@ -7,7 +7,7 @@ import sys
 line_count = 0
 while True:
     line = sys.stdin.readline()
-    if line == '\n':
+    if line == '\n':  #  if not line: <-Error due python version
     	print "bye"
         break
     line_count += 1
