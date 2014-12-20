@@ -7,3 +7,4 @@ class FacebookInfo:
 		self.id = response['id']
 		self.username = response['username']
 
+ 
