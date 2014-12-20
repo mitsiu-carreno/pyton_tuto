@@ -21,4 +21,5 @@ emp1.displayEmployee()
 emp2.displayEmployee()
 print "Total employee %d" % Employee.empCount 
 emp1.age = 7
+setattr(emp1, 'age', 8)
 print"%d" % emp1.age
