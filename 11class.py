@@ -20,3 +20,5 @@ emp2 = Employee("Manni", 5000)
 emp1.displayEmployee()
 emp2.displayEmployee()
 print "Total employee %d" % Employee.empCount 
+emp1.age = 7
+print"%d" % emp1.age
